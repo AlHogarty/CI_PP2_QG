@@ -21,7 +21,7 @@ function setNextQuestion() {
 }
 
 function showQuestion(questions) {
-    questionElement.innerText = question.question
+    questionElement.innerText = questions.question
 }
 
 function selectAnswer() {
