@@ -20,8 +20,8 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
-function showQuestion(questions) {
-    questionElement.innerText = questions.question
+function showQuestion(question) {
+    questionElement.innerText = question.question
 }
 
 function selectAnswer() {
