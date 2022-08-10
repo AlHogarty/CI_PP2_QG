@@ -78,12 +78,75 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is 3 + 4',
+        question: 'What is the capital of France',
         answers: [
-            { text: '4', correct: false },
-            { text: '7', correct: true },
-            { text: '34', correct: false },
-            { text: '6', correct: false }
+            { text: 'Berlin', correct: false },
+            { text: 'Paris', correct: true },
+            { text: 'Nice', correct: false },
+            { text: 'Rome', correct: false }
         ]
-    }
+    },
+    {
+        question: 'Who was the leading actress in Sister act I and II ?',
+        answers: [
+            { text: 'Britney Spears', correct: false },
+            { text: 'Penélope Cruz', correct: false },
+            { text: 'Meryl Streep', correct: false },
+            { text: 'Whoopi Goldberg', correct: true }
+        ]
+    },
+    {
+        question: 'Who played the lead role in the movie Scarface in 1983?',
+        answers: [
+            { text: 'Al Pacino', correct: true },
+            { text: 'Colin Farell', correct: false },
+            { text: 'Daniel Day-Lewis', correct: false },
+            { text: 'Clint Eastwood', correct: false }
+        ]
+    },
+    {
+        question: 'Which device do we use to look at the stars?',
+        answers: [
+            { text: 'Periscope', correct: false },
+            { text: 'Kaleidoscope', correct: false },
+            { text: 'Microscope', correct: false },
+            { text: 'Telescope', correct: true }
+        ]
+    },
+    {
+        question: 'Who is the father of the atomic bomb?',
+        answers: [
+            { text: 'Enrico Fermi', correct: false },
+            { text: 'Robert Oppenheimer', correct: true },
+            { text: 'Albert Einstein', correct: false },
+            { text: 'Vannevar Bush', correct: false }
+        ]
+    },
+    {
+        question: 'How long is the Great Wall of China?',
+        answers: [
+            { text: '3000 miles', correct: false },
+            { text: '7000 miles', correct: false },
+            { text: '5000 miles', correct: false },
+            { text: '4000 miles', correct: true }
+        ]
+    },
+    {
+        question: 'Who is the largest toy distributor in the world?',
+        answers: [
+            { text: 'McDonalds', correct: true },
+            { text: 'Tesla', correct: false },
+            { text: 'Toys R Us', correct: false },
+            { text: 'Smyths', correct: false }
+        ]
+    },
+    {
+        question: 'Which country is the origin of the cocktail Mojito?',
+        answers: [
+            { text: 'Mexico', correct: false },
+            { text: 'Switzerland', correct: false },
+            { text: 'Jamaica', correct: false },
+            { text: 'Cuba', correct: true }
+        ]
+    },
 ]
