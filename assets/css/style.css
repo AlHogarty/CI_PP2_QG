@@ -32,12 +32,15 @@ body.wrong {
 .container {
     width: 800px;
     max-width: 80%;
+    /* height: 300px; */
     background-color: azure;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
     color: black;
     font-weight: bolder;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .btn-grid {
