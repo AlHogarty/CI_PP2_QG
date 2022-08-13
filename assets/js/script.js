@@ -149,4 +149,40 @@ const questions = [
             { text: 'Cuba', correct: true }
         ]
     },
+    {
+      question: 'In what year was the Berlin wall built?',
+      answers: [
+          { text: '1961', correct: true },
+          { text: '1951', correct: false },
+          { text: '1976', correct: false },
+          { text: '1948', correct: false }
+      ]
+    },
+    {
+      question: 'In which country happened the Orange Revolution between 2004-2005?',
+      answers: [
+          { text: 'Northern Ireland', correct: false },
+          { text: 'Belarus', correct: false },
+          { text: 'Egypt', correct: false },
+          { text: 'Ukraine', correct: true }
+      ]
+    },
+    {
+      question: 'Which American president appears on a one dollar bill?',
+      answers: [
+          { text: 'Benjamin Franklin', correct: false },
+          { text: 'George Washington', correct: true },
+          { text: 'George Bush', correct: false },
+          { text: 'Fidel Castro', correct: false }
+      ]
+    },
+    {
+      question: 'Who is the protagonist in the Last Action Hero film?',
+      answers: [
+          { text: 'Quentin Tarantino', correct: false },
+          { text: 'Robin Williams', correct: false },
+          { text: 'Arnold Schwarzenegger', correct: true },
+          { text: 'Daniel Radcliffe', correct: false }
+      ]
+    },
 ]

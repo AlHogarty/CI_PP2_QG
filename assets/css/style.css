@@ -13,10 +13,6 @@
     text-align: center;
 }
 
- {
-
-}
-
 body {
     --hue: var(--hue-neutral);
     padding: 0;
