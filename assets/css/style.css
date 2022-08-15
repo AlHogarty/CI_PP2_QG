@@ -91,3 +91,7 @@ body.wrong {
 .hide {
     display: none;
 }
+
+#oops {
+    text-align: center;
+}
