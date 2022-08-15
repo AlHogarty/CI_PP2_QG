@@ -95,3 +95,7 @@ body.wrong {
 #oops {
     text-align: center;
 }
+
+#back-btn {
+    align-items: center;
+}
