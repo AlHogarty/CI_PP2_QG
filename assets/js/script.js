@@ -1,17 +1,21 @@
+// Connect HTML elements to JS 
 const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 
+// Shuffle Questions
 let shuffledQuestions, currentQuestionIndex;
 
+// Event listeners
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++;
   setNextQuestion();
 });
 
+// Start Game function
 function startGame() {
   startButton.classList.add('hide');
   shuffledQuestions = questions.sort(() => Math.random() - .5);
@@ -20,11 +24,13 @@ function startGame() {
   setNextQuestion();
 }
 
+// Set next Question function
 function setNextQuestion() {
   resetState();
   showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
+// Pushes questions and answer buttons to HTML
 function showQuestion(question) {
   questionElement.innerText = question.question;
   question.answers.forEach(answer => {
@@ -39,6 +45,7 @@ function showQuestion(question) {
   });
 }
 
+// Resets next button
 function resetState() {
   clearStatusClass(document.body);
   nextButton.classList.add('hide');
@@ -47,6 +54,7 @@ function resetState() {
   }
 }
 
+// Adds function to select Answer
 function selectAnswer(e) {
   const selectedButton = e.target;
   const correct = selectedButton.dataset.correct;
@@ -62,6 +70,7 @@ function selectAnswer(e) {
   }
 }
 
+// Checks correct or wrong answer
 function setStatusClass(element, correct) {
   clearStatusClass(element);
   if (correct) {
@@ -76,6 +85,7 @@ function clearStatusClass(element) {
   element.classList.remove('wrong');
 }
 
+// Questions and Answers
 const questions = [
     {
         question: 'What is the capital of France',
