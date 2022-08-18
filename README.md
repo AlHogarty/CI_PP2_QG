@@ -6,7 +6,7 @@ Al's Quiz Game is a general knowledge quiz that anyone can play.
 
 Live Demo - [Here](https://alhogarty.github.io/CI_PP2_QG/)
 
-Github Rep - [Here](https://github.com/AlHogarty/CI_PP2_QG)
+Github Repository - [Here](https://github.com/AlHogarty/CI_PP2_QG)
 
 ## Table of Contents
 
@@ -15,6 +15,7 @@ Github Rep - [Here](https://github.com/AlHogarty/CI_PP2_QG)
   * [Features to Implement](#features-to-implement)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
+* [Deployment](#deployment)
 * [Credits](#credits)
 
 
@@ -71,6 +72,18 @@ Github Rep - [Here](https://github.com/AlHogarty/CI_PP2_QG)
 
   The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
+- Google Lighthouse
+
+  ![google lighthouse](docs/lighthouse.png)
+
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down-menu, select the Master Branch
+    - Once the master branch has been selected, the page provided the link to the completed website
 
 ## Credits
 
@@ -78,6 +91,6 @@ Github Rep - [Here](https://github.com/AlHogarty/CI_PP2_QG)
 
 - [StackOverflow](https://stackoverflow.com/) forum
 
-- Original code taken from [WebDevSimplified](https://www.youtube.com/c/WebDevSimplified)
+- Original code taken from [WebDevSimplified](https://www.youtube.com/c/WebDevSimplified) JavaScript Quiz Tutorial
 
 - Quiz Questions taken from [QuizQuestions.net](https://www.quiz-questions.net/)
